@@ -24,6 +24,7 @@ class ImportCategoryUseCase {
 
             })
             .on("end" , () => {
+                fs.promises.unlink(file.path); //remove tmp file
                 resolve(categories);
             }).on("error" , (err) =>{
                 reject(err);
