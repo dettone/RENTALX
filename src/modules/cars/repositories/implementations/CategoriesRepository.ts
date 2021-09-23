@@ -1,6 +1,6 @@
 
-import { Category } from '../model/Category';
-import { ICategoriesRepository,ICreateCategoryDTO } from './ICategoriesRepository';
+import { Category } from '../../model/Category';
+import { ICategoriesRepository,ICreateCategoryDTO } from '../ICategoriesRepository';
 
 // DTO => Data transfer object
 
